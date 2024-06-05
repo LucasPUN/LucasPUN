@@ -17,26 +17,20 @@ Here are some ideas to get you started:
 
 ## <img src="https://media.giphy.com/media/HwBlFQZFcAoUcPHZdX/giphy.gif" width="45px"> Languages & Frameworks
 
-<style>
-    .badge {
-        width: 150px;
-    }
-</style>
+<a href="https://www.java.com/"><img alt="Java" src="https://img.shields.io/badge/Java-14354C.svg?logo=java&logoColor=white&color=red" width="150"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black" width="150"></a>
+<a href="https://www.typescriptlang.org/"><img alt="Typescript" src="https://img.shields.io/badge/TypeScript-14354C.svg?logo=typescript&logoColor=white&color=blue" width="150"></a>
+<a href="https://spring.io/projects/spring-boot"><img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F.svg?logo=spring-boot&logoColor=white" width="150"></a>
+<a href="https://reactjs.org/"><img alt="React" src="https://img.shields.io/badge/React-61DAFB.svg?logo=react&logoColor=white" width="150"></a>
+<a href="https://reactnative.dev/"><img alt="React Native" src="https://img.shields.io/badge/React_Native-61DAFB.svg?logo=react&logoColor=white" width="150"></a>
+<a href="https://www.mysql.com/"><img alt="SQL" src="https://custom-icon-badges.herokuapp.com/badge/SQL-025E8C.svg?logo=database&logoColor=white" width="150"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"><img alt="HTML" src="https://img.shields.io/badge/HTML-14354C.svg?logo=html5&logoColor=black&color=orange" width="150"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img alt="CSS" src="https://img.shields.io/badge/CSS-14354C.svg?logo=css3&logoColor=white&color=blue" width="150"></a>
+<a href="https://www.cplusplus.com/"><img alt="c++" src="https://img.shields.io/badge/C/C++-14354C.svg?logo=c&logoColor=white&color=blue" width="150"></a>
+<a href="https://nodejs.org/en/"><img alt="Nodejs" src="https://img.shields.io/badge/Nodejs-14354C.svg?logo=node.js&logoColor=black&color=darkgreen" width="150"></a>
+<a href="https://getbootstrap.com/"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-14354C.svg?logo=bootstrap&logoColor=white&color=mediumpurple" width="150"></a>
+<a href="https://mui.com/"><img alt="Material-UI" src="https://img.shields.io/badge/MUI-007FFF.svg?logo=mui&logoColor=white" width="150"></a>
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img class="badge" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
-<a href="https://www.typescriptlang.org/"><img class="badge" alt="Typescript" src="https://img.shields.io/badge/TypeScript-14354C.svg?logo=typescript&logoColor=white&color=blue"></a>
-<a href="https://www.mysql.com/"><img class="badge" alt="SQL" src="https://custom-icon-badges.herokuapp.com/badge/SQL-025E8C.svg?logo=database&logoColor=white"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"><img class="badge" alt="HTML" src="https://img.shields.io/badge/HTML-14354C.svg?logo=html5&logoColor=black&color=orange"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img class="badge" alt="CSS" src="https://img.shields.io/badge/CSS-14354C.svg?logo=css3&logoColor=white&color=blue"></a>
-<a href="https://www.cplusplus.com/"><img class="badge" alt="C++" src="https://img.shields.io/badge/C/C++-14354C.svg?logo=c&logoColor=white&color=blue"></a>
-<a href="https://www.python.org/"><img class="badge" alt="Python" src="https://img.shields.io/badge/Python-14354C.svg?logo=python&logoColor=blue&color=yellow"></a>
-<a href="https://nodejs.org/en/"><img class="badge" alt="Node.js" src="https://img.shields.io/badge/Node.js-14354C.svg?logo=node.js&logoColor=black&color=darkgreen"></a>
-<a href="https://getbootstrap.com/"><img class="badge" alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-14354C.svg?logo=bootstrap&logoColor=white&color=mediumpurple"></a>
-<a href="https://www.java.com/"><img class="badge" alt="Java" src="https://img.shields.io/badge/Java-14354C.svg?logo=java&logoColor=white&color=red"></a>
-<a href="https://spring.io/projects/spring-boot"><img class="badge" alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F.svg?logo=spring-boot&logoColor=white"></a>
-<a href="https://reactjs.org/"><img class="badge" alt="React" src="https://img.shields.io/badge/React-61DAFB.svg?logo=react&logoColor=white"></a>
-<a href="https://reactnative.dev/"><img class="badge" alt="React Native" src="https://img.shields.io/badge/React_Native-61DAFB.svg?logo=react&logoColor=white"></a>
-<a href="https://mui.com/"><img class="badge" alt="Material-UI" src="https://img.shields.io/badge/MUI-007FFF.svg?logo=mui&logoColor=white"></a>
 
 
 
