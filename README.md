@@ -49,13 +49,3 @@ Here are some ideas to get you started:
 <p><img src="https://github-readme-stats.vercel.app/api?username=LucasPUN&show_icons=true&theme=dark&locale=en" alt="h-fares" align=center/></p>
 
 
-<details>
-<summary>My top languages</summary>
-
-| Rank | Languages |
-|-----:|-----------|
-|     1| JavaScript|
-|     2| Python    |
-|     3| SQL       |
-
-</details>
