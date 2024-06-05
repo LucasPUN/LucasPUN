@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 ## <img src="https://media.giphy.com/media/HwBlFQZFcAoUcPHZdX/giphy.gif" width="45px"> Languages & Frameworks
 
-<a href="https://www.java.com/"><img alt="Java" src="https://img.shields.io/badge/Java-14354C.svg?logo=java&logoColor=white&color=red" width="100" height="50"></a>
+<a href="https://www.java.com/"><img alt="Java" src="https://img.shields.io/badge/Java-14354C.svg?logo=java&logoColor=white&color=red" width="10" height="5"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black" width="150"></a>
 <a href="https://www.typescriptlang.org/"><img alt="Typescript" src="https://img.shields.io/badge/TypeScript-14354C.svg?logo=typescript&logoColor=white&color=blue" width="150"></a>
 <a href="https://spring.io/projects/spring-boot"><img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F.svg?logo=spring-boot&logoColor=white" width="150"></a>
