@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-## <img src="https://media.giphy.com/media/HwBlFQZFcAoUcPHZdX/giphy.gif" height="50"> Languages & Frameworks
+## <img src="https://media.giphy.com/media/HwBlFQZFcAoUcPHZdX/giphy.gif" height="25"> Languages & Frameworks
 
 <a href="https://www.java.com/"><img alt="Java" src="https://img.shields.io/badge/Java-14354C.svg?logo=java&logoColor=white&color=red"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
