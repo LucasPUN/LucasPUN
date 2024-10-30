@@ -26,7 +26,6 @@ Here are some ideas to get you started:
 <a href="https://www.mysql.com/"><img alt="SQL" src="https://custom-icon-badges.herokuapp.com/badge/SQL-025E8C.svg?logo=database&logoColor=white"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"><img alt="HTML" src="https://img.shields.io/badge/HTML-14354C.svg?logo=html5&logoColor=black&color=orange"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img alt="CSS" src="https://img.shields.io/badge/CSS-14354C.svg?logo=css3&logoColor=white&color=blue"></a>
-<a href="https://www.cplusplus.com/"><img alt="c++" src="https://img.shields.io/badge/C/C++-14354C.svg?logo=c&logoColor=white&color=blue"></a>
 <a href="https://nodejs.org/en/"><img alt="Nodejs" src="https://img.shields.io/badge/Nodejs-14354C.svg?logo=node.js&logoColor=black&color=darkgreen"></a>
 <a href="https://getbootstrap.com/"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-14354C.svg?logo=bootstrap&logoColor=white&color=mediumpurple"></a>
 <a href="https://mui.com/"><img alt="Material-UI" src="https://img.shields.io/badge/MUI-007FFF.svg?logo=mui&logoColor=white"></a>
