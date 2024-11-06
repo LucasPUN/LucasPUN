@@ -38,10 +38,11 @@ I'm passionate about coding, problem-solving, and exploring new technologies. He
   <a href="https://ubuntu.com/" target="_blank"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" width="40" height="40"/></a>
 
 ### ⚙️ **Tools & IDEs**
-  <a href="https://www.sublimetext.com/" target="_blank"><img src="https://skillicons.dev/icons?i=sublime" alt="Sublime Text" width="40" height="40"/></a>
-  <a href="https://gradle.org/" target="_blank"><img src="https://skillicons.dev/icons?i=gradle" alt="Gradle" width="40" height="40"/></a>
-  <a href="https://www.postman.com/" target="_blank"><img src="https://skillicons.dev/icons?i=postman" alt="Postman" width="40" height="40"/></a>
-  <a href="https://maven.apache.org/" target="_blank"><img src="https://skillicons.dev/icons?i=maven" alt="Maven" width="40" height="40"/></a>
+ <a href="https://www.jetbrains.com/idea/" target="_blank"><img src="https://skillicons.dev/icons?i=intellij" alt="IntelliJ IDEA" width="40" height="40"/></a>
+ <a href="https://www.sublimetext.com/" target="_blank"><img src="https://skillicons.dev/icons?i=sublime" alt="Sublime Text" width="40" height="40"/></a>
+ <a href="https://gradle.org/" target="_blank"><img src="https://skillicons.dev/icons?i=gradle" alt="Gradle" width="40" height="40"/></a>
+ <a href="https://maven.apache.org/" target="_blank"><img src="https://skillicons.dev/icons?i=maven" alt="Maven" width="40" height="40"/></a>
+ <a href="https://www.postman.com/" target="_blank"><img src="https://skillicons.dev/icons?i=postman" alt="Postman" width="40" height="40"/></a>
 
 ### 🌍 **Content Management System**
   <a href="https://wordpress.com/" target="_blank"><img src="https://skillicons.dev/icons?i=wordpress" alt="WordPress" width="40" height="40"/></a>
