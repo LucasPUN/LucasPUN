@@ -15,16 +15,25 @@ jobs:
           mkdir -p dist
 
       # Step 2: 运行 Platane/snk，生成 snake.svg 到 dist 目录
-      - uses: Platane/snk@v3
+      - uses: Platane/snk@v2
         with:
           github_user_name: LucasPUN
           outputs: dist/snake.svg
 
-      # Step 3: 上传生成的动画文件
+      # Step 3: 提交并推送生成的文件
+      - name: Commit and Push Snake Animation
+        run: |
+          git config --global user.name LucasPUN
+          git config --global user.email lucas_3_2_1@hotmail.com
+          git add dist/snake.svg
+          git commit -m "Add snake animation"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
+
+      # Step 4: 上传生成的动画文件
       - name: Upload Snake Animation
         uses: actions/upload-artifact@v4
         with:
           name: snake-animation
           path: dist/snake.svg
-    env:
-      GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
