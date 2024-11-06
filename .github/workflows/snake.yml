@@ -48,6 +48,8 @@ jobs:
           git add dist/snake.svg
           git commit -m "Add snake animation"
           git push -u origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}  # 使用密钥进行身份验证
 
       # Step 8: 上传生成的动画文件
       - name: Upload Snake Animation
