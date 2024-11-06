@@ -2,34 +2,29 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # 每天运行一次
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Debug Information
+      # Step 1: 创建 dist 目录
+      - name: Create dist directory
         run: |
-          echo "GitHub username: LucasPUN"
-          echo "GitHub token: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}"
+          mkdir -p dist
 
-      - name: Fetch User Data
-        run: |
-          curl -H "Authorization: token ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}" \
-          https://api.github.com/users/LucasPUN
-
-      - uses: Platane/snk@v1
+      # Step 2: 运行 Platane/snk，生成 snake.svg 到 dist 目录
+      - uses: Platane/snk@v3
         with:
           github_user_name: LucasPUN
           outputs: dist/snake.svg
 
+      # Step 3: 上传生成的动画文件
       - name: Upload Snake Animation
         uses: actions/upload-artifact@v3
         with:
           name: snake-animation
           path: dist/snake.svg
-
     env:
       GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
