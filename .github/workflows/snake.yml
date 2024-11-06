@@ -20,7 +20,7 @@ jobs:
           curl -H "Authorization: token ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}" \
           https://api.github.com/users/LucasPUN
 
-      - uses: Platane/snk@v2
+      - uses: Platane/snk@v1
         with:
           github_user_name: LucasPUN
           outputs: dist/snake.svg
