@@ -20,19 +20,21 @@ jobs:
           github_user_name: LucasPUN
           outputs: dist/snake.svg
 
-      # Step 3: 初始化 Git 仓库
+      # Step 3: 初始化 git 仓库并设置远程仓库
       - name: Initialize git repository
         run: |
           git init
           git config --global user.name "LucasPUN"
           git config --global user.email "lucas_3_2_1@hotmail.com"  # 请替换为你的电子邮件
+          git remote add origin https://github.com/LucasPUN/LucasPUN.git  # 设置远程仓库
+          git fetch origin  # 获取远程仓库信息
 
       # Step 4: 提交并推送生成的文件
       - name: Commit and Push Snake Animation
         run: |
           git add dist/snake.svg
           git commit -m "Add snake animation"
-          git push origin master  # 确保推送到正确的分支
+          git push origin master  # 推送到正确的分支
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
 
