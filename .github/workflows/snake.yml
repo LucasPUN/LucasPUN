@@ -32,14 +32,19 @@ jobs:
         run: |
           git branch -m master main  # 如果当前分支是 master，则重命名为 main
 
-      # Step 5: 提交并推送生成的文件
+      # Step 5: 拉取远程仓库的最新更新
+      - name: Pull from remote repository
+        run: |
+          git pull origin main --rebase
+
+      # Step 6: 提交并推送生成的文件
       - name: Commit and Push Snake Animation
         run: |
           git add dist/snake.svg
           git commit -m "Add snake animation"
           git push -u https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/LucasPUN/LucasPUN.git main
 
-      # Step 6: 上传生成的动画文件
+      # Step 7: 上传生成的动画文件
       - name: Upload Snake Animation
         uses: actions/upload-artifact@v4
         with:
