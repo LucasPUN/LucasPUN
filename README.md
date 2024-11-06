@@ -80,7 +80,7 @@ Happy Coding! 😄
 
 ### 📫 Let's Connect!
 
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/lucaspun)
+- LinkedIn: [Lucas](https://www.linkedin.com/in/lucaspun)
 - Email: lucas_3_2_1@hotmail.com
 
 ---
