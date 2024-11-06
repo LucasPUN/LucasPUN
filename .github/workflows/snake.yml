@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: Platane/snk@v2
         with:
-          github_user_name: LucasPUN
+          github_user_name: "LucasPUN"
           outputs: dist/snake.svg
 
       - name: Upload Snake Animation
