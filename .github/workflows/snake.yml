@@ -34,7 +34,7 @@ jobs:
         run: |
           git add dist/snake.svg
           git commit -m "Add snake animation"
-          git push https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/LucasPUN/LucasPUN.git master
+          git push https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/LucasPUN/LucasPUN.git main
 
       # Step 5: 上传生成的动画文件
       - name: Upload Snake Animation
