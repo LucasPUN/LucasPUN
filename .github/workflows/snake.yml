@@ -34,7 +34,7 @@ jobs:
         run: |
           git add dist/snake.svg
           git commit -m "Add snake animation"
-          git push origin master  # 推送到正确的分支
+          git push https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/LucasPUN/LucasPUN.git master
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
 
