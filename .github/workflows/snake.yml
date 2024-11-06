@@ -20,38 +20,24 @@ jobs:
           github_user_name: LucasPUN
           outputs: dist/snake.svg
 
-      # Step 3: 初始化 Git 仓库
+      # Step 3: 初始化 git 仓库并设置远程仓库
       - name: Initialize git repository
         run: |
           git init
           git config --global user.name "LucasPUN"
           git config --global user.email "lucas_3_2_1@hotmail.com"  # 请替换为你的电子邮件
+          git remote add origin https://github.com/LucasPUN/LucasPUN.git  # 设置远程仓库
+          git fetch origin  # 获取远程仓库信息
 
-      # Step 4: 将 master 分支重命名为 main（如果需要）
-      - name: Rename branch to main
-        run: |
-          git branch -m master main  # 如果当前分支是 master，则重命名为 main
-
-      # Step 5: 设置远程仓库链接
-      - name: Add remote repository
-        run: |
-          git remote add origin https://github.com/LucasPUN/LucasPUN.git
-
-      # Step 6: 拉取远程仓库的最新更新
-      - name: Pull from remote repository
-        run: |
-          git pull origin main --rebase
-
-      # Step 7: 提交并推送生成的文件
+      # Step 4: 提交并推送生成的文件
       - name: Commit and Push Snake Animation
         run: |
           git add dist/snake.svg
           git commit -m "Add snake animation"
-          git push -u origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}  # 使用密钥进行身份验证
+          git push https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/LucasPUN/LucasPUN.git master
 
-      # Step 8: 上传生成的动画文件
+
+      # Step 5: 上传生成的动画文件
       - name: Upload Snake Animation
         uses: actions/upload-artifact@v4
         with:
