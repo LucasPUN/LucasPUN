@@ -15,7 +15,7 @@ jobs:
           mkdir -p dist
 
       # Step 2: 运行 Platane/snk，生成 snake.svg 到 dist 目录
-      - uses: Platane/snk@v2
+      - uses: Platane/snk@v3
         with:
           github_user_name: LucasPUN
           outputs: dist/snake.svg
