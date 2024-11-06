@@ -49,7 +49,7 @@ I'm passionate about coding, problem-solving, and exploring new technologies. He
 
 ## 🎲 Contribution Snake Animation
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LucasPUN/LucasPUN/output/github-contribution-grid-snake.svg">
+<img src="https://raw.githubusercontent.com/LucasPUN/LucasPUN/main/dist/snake.svg">
 </p>
 
 ---
