@@ -65,14 +65,6 @@ I'm passionate about coding, problem-solving, and exploring new technologies. He
 
 ---
 
-## 🏆 GitHub Achievements & Contribution
-
-  - 💻 Contributed to 20+ repositories
-  - 📈 Active on GitHub for over 6 months
-  - 🥇 Consistently making contributions!
-
----
-
 Feel free to check out my repositories! If you'd like to get in touch, don’t hesitate to drop me a message!
 
 Happy Coding! 😄
