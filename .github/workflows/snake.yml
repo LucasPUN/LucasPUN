@@ -30,19 +30,30 @@ jobs:
           git fetch origin  # 获取远程仓库信息
           git checkout -b main || git checkout main  # 切换到 main 分支
 
-      # Step 4: 拉取远程变更并重排提交记录
+      # Step 4: 移除 dist/snake.svg 暂时，避免 pull 冲突
+      - name: Remove snake.svg temporarily
+        run: |
+          rm -f dist/snake.svg
+
+      # Step 5: 拉取远程变更并重排提交记录
       - name: Pull and rebase from remote
         run: |
           git pull --rebase origin main
 
-      # Step 5: 提交并推送生成的文件
+      # Step 6: 重新生成 snake.svg 文件
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: LucasPUN
+          outputs: dist/snake.svg
+
+      # Step 7: 提交并推送生成的文件
       - name: Commit and Push Snake Animation
         run: |
           git add dist/snake.svg
           git commit -m "Add snake animation"
           git push https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/LucasPUN/LucasPUN.git main
 
-      # Step 6: 上传生成的动画文件
+      # Step 8: 上传生成的动画文件
       - name: Upload Snake Animation
         uses: actions/upload-artifact@v4
         with:
