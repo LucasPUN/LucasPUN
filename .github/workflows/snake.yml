@@ -28,18 +28,21 @@ jobs:
           git config --global user.email "lucas_3_2_1@hotmail.com"  # 请替换为你的电子邮件
           git remote add origin https://github.com/LucasPUN/LucasPUN.git  # 设置远程仓库
           git fetch origin  # 获取远程仓库信息
+          git checkout -b main || git checkout main  # 切换到 main 分支
 
-      # Step 4: 提交并推送生成的文件
+      # Step 4: 拉取远程变更并重排提交记录
+      - name: Pull and rebase from remote
+        run: |
+          git pull --rebase origin main
+
+      # Step 5: 提交并推送生成的文件
       - name: Commit and Push Snake Animation
         run: |
-          git fetch origin  # 获取远程仓库信息
-          git checkout -b main origin/main || git checkout -b main  # 切换到 main 分支，如果不存在就创建
           git add dist/snake.svg
           git commit -m "Add snake animation"
           git push https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/LucasPUN/LucasPUN.git main
 
-
-      # Step 5: 上传生成的动画文件
+      # Step 6: 上传生成的动画文件
       - name: Upload Snake Animation
         uses: actions/upload-artifact@v4
         with:
