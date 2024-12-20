@@ -56,7 +56,7 @@ I'm passionate about coding, problem-solving, and exploring new technologies. He
 </p>
 
 ---
-
+![LeetCode Stats](https://leetcard.jacoblin.cool/your_leetcode_username?theme=dark)
 ## 🎲 Contribution Snake Animation
 <p align="center">
 <img src="https://raw.githubusercontent.com/LucasPUN/LucasPUN/main/dist/snake.svg">
