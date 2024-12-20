@@ -62,8 +62,6 @@ I'm passionate about coding, problem-solving, and exploring new technologies. He
 <img src="https://raw.githubusercontent.com/LucasPUN/LucasPUN/main/dist/snake.svg">
 </p>
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/lucaspun?theme=dark)
-
 ---
 
 Feel free to check out my repositories! If you'd like to get in touch, don’t hesitate to drop me a message!
