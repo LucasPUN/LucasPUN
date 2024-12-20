@@ -53,11 +53,11 @@ I'm passionate about coding, problem-solving, and exploring new technologies. He
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=LucasPUN&show_icons=true&theme=dark" alt="LucasPUN GitHub stats" width="50%">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=LucasPUN&show_icons=true&theme=dark&locale=en&layout=compact" alt="Top Langs" width="50%">
+  ![LeetCode Stats](https://leetcard.jacoblin.cool/lucaspun?theme=dark)
 </p>
 
 ---
-![LeetCode Stats](https://leetcard.jacoblin.cool/lucaspun?theme=dark)
-![LeetCode Easy](https://img.shields.io/badge/Easy-120-green)
+
 ## 🎲 Contribution Snake Animation
 <p align="center">
 <img src="https://raw.githubusercontent.com/LucasPUN/LucasPUN/main/dist/snake.svg">
